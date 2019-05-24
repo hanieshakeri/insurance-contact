@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+      <section class="nav">
         <header>
 
                 <!-- Navbar-->
@@ -72,50 +72,62 @@
                 </nav>
             
               </header>
-             
+            </section> 
         <!--header-->
-        
-        <section class="header">
-            <div class="header-picture"></div>
+    <section class="first-header">
+      <div class="header">  
+        <div id="logo-container">
             <div class="contact-text">
-                <p>CONTACT US</p>
+                <h2>CONTACT US</h2>
             </div>
-                        
-        </section>
+          
+          <!-- <div class="picture"> 
+          <img src="img/pic1.jpg" alt="" />
+           </div>-->
+           <div class="container">
+            <img class="img-responsive" src="img/pic1.jpg" alt="" width="460" height="400"> 
+          </div>
+           
+        </div>
+      </div>     
+    </section>   
         <!---callus-information+location-information+email-->
+      
         <section class="information">
             <div class="container">
                 <div class="row">
                     <div class="row justify-content-md-center">
                   <div class="col-md-3 offset-md-2">
-                    World headquarters
-                    Insuranceonline.com Services,Inc
-                    660 newport center Dr. #340 
-                    newport beach , CA 92660
+                    <ul>
+                      <li><a href="#">World headquarters Insuranceonline.com Services,Inc
+                                      660 newport center Dr. #340 
+                                      newport beach , CA 92660</a></li>  
+                   
+                    
                     <br>
                     <br>
                     <br>
-                    Email us
-                    support@insuranceonline.com
-                  </div> 
-                 
+                      <li>Email us
+                          <a href="#">support@insuranceonline.com</a></li>
+                      </div> 
+                    </ul>    
                 
                 <div class="col-md-3 offset-md-2">
-                    Call us
-                    <br>
-                    Support:800-880-1925
-                    Auto:800-956-8611<br>
-                    Home:800-313-8013<br>
-                    Business:800-520-1559<br>
-                    Fax:949-613-8362
-                     
+                  <ul>
+                   <li>Call us</li> 
+                   <li>Support:<a href="#">800-880-1925</a></li> 
+                   <li>Auto:<a href="#">800-956-8611</a></li> 
+                   <li>Home:<a href="#">800-313-8013</a></li> 
+                   <li>Business:<a href="#">800-520-1559</a></li> 
+                   <li>Fax:<a href="#">949-613-8362</a></li>
+                  </ul>   
                 </div>
                   </div>
                   
                 </div>
              </div>
         </section>
-
+      
         <section class="map">
           <div id="map-locate">
             <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.3937945925454!2d-117.87650798531276!3d33.621030047778916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dce081109b7bd3%3A0x73f3c1409d9dc10a!2s660+Newport+Center+Dr+%23340%2C+Newport+Beach%2C+CA+92660%2C+USA!5e0!3m2!1sen!2s!4v1558009533226!5m2!1sen!2s"
@@ -126,12 +138,14 @@
              </a>
           </div>
         </section>
-
+      
         <section class="forms">
          <form class="container">
+           <div class="form-box">
               <div class="row">
                 <div class="col-sm-12 col-md-8 col-lg-8">
                   <div>
+                <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
                         <label for="validationCustom01">First Name</label>
                         <input type="text" class="form-control" placeholder="First name">
@@ -141,13 +155,13 @@
                         <input type="text" class="form-control" placeholder="Last name">
                     </div>
                   </div>
-                  
+                </div>  
                   <div class="form">
                     <label for="inputEmail4">Email</label>
                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email"></div>
                 
                 <div>
-
+                <div class="row">
                       <div class="col-sm-12 col-md-6 col-lg-6">
                         <label for="validationCustom01">Phone Number</label>
                         <input type="text" class="form-control" placeholder="(555)-555-555">
@@ -158,52 +172,21 @@
                       </div>
                   </div>
                 </div>  
-              
-                <div class="col-sm-12 col-md-4 col-lg-4">
+              </div>  
+                <div class="col-sm-12 col-md-12 col-lg-12">
                   <form action="">
                       <label for="exampleFormControlTextarea1">Comments</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Type a message here</textarea>
+                      <textarea class="form-control"  id="exampleFormControlTextarea1" rows="5">Type a message here</textarea>
                   </form>
                   <div class="how-button-box">
                       <a href="#" class="how-button"> Submit </a>
                     </div>
                 </div>
-              </div> 
+              </div>
+            </div>
+          </section>
 
-
-
-
-              <!--<div class="row">
-                <div class="col sm-12 col-md-8 col-lg-8">
-                  <div class="col sm-12 col-md-6 col-lg-6">
-                      <label for="validationCustom01">First Name</label>
-                      <input type="text" class="form-control" placeholder="First name">
-                  </div>
-                  <div class="col sm-12 col-md-6 col-lg-6">
-                      <label for="validationCustom02">Last Name</label>
-                      <input type="text" class="form-control" placeholder="Last name">
-                  </div>
-                  <div class="col sm-12 col-md-8 col-lg-8">
-                      <label for="inputEmail4">Email</label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"></div>
-                  </div>
-                  <div class="col sm-12 col-md-6 col-lg-6">
-                      <label for="validationCustom01">Phone Number</label>
-                      <input type="text" class="form-control" placeholder="(555)-555-555">
-                  </div>
-                  <div class="col sm-12 col-md-6 col-lg-6">
-                      <label for="validationCustom02">Policy Number</label>
-                      <input type="text" class="form-control" placeholder="000-000-000">  
-                  </div>
-                  <div class="col sm-12 col-md-4 col-lg-4">
-                      <form>
-                          <label for="exampleFormControlTextarea1">Comments</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="5">Type a message here</textarea>
-                        </form>
-                  </div>
-                </div>
-              </div>-->
-        </section>
+          
         
 
  <!--Footer-->
